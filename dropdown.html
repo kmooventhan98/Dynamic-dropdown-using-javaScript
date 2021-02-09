@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+</head>
+
+<style>
+select{
+  display: inline;
+  width: 150px;
+  padding: 2px;
+  text-align: center;
+  height: 50px;
+}
+input[type=button] {
+  padding: 2px;
+  width: 60px;
+  cursor: url(myBall.cur),auto;
+  display: inline;
+  height: 50px;
+}
+body{
+    margin-left: 30%;
+}
+
+</style>
+
+<body>
+    <div>
+        <select id="count1">
+            <option value="">Countries</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+            <option value="usa">USA</option>
+            <option value="german">German</option>
+        </select>
+        
+        <input type="button" value="LTR" onclick="myFunctionL()"/>
+        <input type="button" value="RTL" onclick="myFunctionR()"/>
+        
+        
+        <select id="count2">
+        
+        
+        </select>
+    </div>
+    <script>
+function myFunctionL(){
+
+
+    var con1= document.getElementById('count1');
+    var con1val=con1.options[con1.selectedIndex].text;
+
+    var con2= document.getElementById('count2');
+    var option = document.createElement("option");
+
+
+    option.text = con1val;
+    con2.add(option);
+    con1.remove(con1.selectedIndex);
+}
+
+function myFunctionR(){
+    var con2= document.getElementById('count2');
+    var con2val=con2.options[con2.selectedIndex].text;
+
+    var con1= document.getElementById('count1');
+    var option = document.createElement("option");
+    option.text = con2val;
+    con1.add(option);
+    con2.remove(con2.selectedIndex);
+
+}
+    </script>
+</body>
+</html>
