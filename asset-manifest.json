@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/simple-FETCH-using-React/static/css/main.1c43a64b.chunk.css",
+    "main.js": "/simple-FETCH-using-React/static/js/main.66bda053.chunk.js",
+    "main.js.map": "/simple-FETCH-using-React/static/js/main.66bda053.chunk.js.map",
+    "runtime-main.js": "/simple-FETCH-using-React/static/js/runtime-main.7fdbc6af.js",
+    "runtime-main.js.map": "/simple-FETCH-using-React/static/js/runtime-main.7fdbc6af.js.map",
+    "static/js/2.e75e7b3e.chunk.js": "/simple-FETCH-using-React/static/js/2.e75e7b3e.chunk.js",
+    "static/js/2.e75e7b3e.chunk.js.map": "/simple-FETCH-using-React/static/js/2.e75e7b3e.chunk.js.map",
+    "static/js/3.cfea3fee.chunk.js": "/simple-FETCH-using-React/static/js/3.cfea3fee.chunk.js",
+    "static/js/3.cfea3fee.chunk.js.map": "/simple-FETCH-using-React/static/js/3.cfea3fee.chunk.js.map",
+    "index.html": "/simple-FETCH-using-React/index.html",
+    "static/css/main.1c43a64b.chunk.css.map": "/simple-FETCH-using-React/static/css/main.1c43a64b.chunk.css.map",
+    "static/js/2.e75e7b3e.chunk.js.LICENSE.txt": "/simple-FETCH-using-React/static/js/2.e75e7b3e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fdbc6af.js",
+    "static/js/2.e75e7b3e.chunk.js",
+    "static/css/main.1c43a64b.chunk.css",
+    "static/js/main.66bda053.chunk.js"
+  ]
+}
